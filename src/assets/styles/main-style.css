@@ -1,0 +1,5 @@
+
+
+.inline-blocker { display:inline-block; width: 150px; height:150px; background-repeat:no-repeat;background-size: 100% 100%; border: 1px dashed green;margin: 4px;border-radius: 10px;}
+
+.blocker2 { background-image: url("../images/ming-tian-shang-xian.jpg");}
