@@ -35,6 +35,7 @@
           {id: 9, src: './static/images_test/Multithreaded programming - theory and practice.jpg', info:'多线程编程 - 理论与实践'},
           {id: 10, src: './static/images_test/ipanda.jpg', info:'ipanda'},
           {id: 11, src: './static/images_test/mongodb.png', info:'欢迎学习MongoDB'},
+          {id: 12, src: './static/images_test/cctv-panda.gif', info:'panda'},
 
         ],
 
@@ -62,8 +63,8 @@
       }
     },
     created() {
-      this.imgsArr = this.initImgsArr(0,11)
-      this.fetchImgsArr = this.initImgsArr(0, 11) // 模拟每次请求的新的图片的数据数据
+      this.imgsArr = this.initImgsArr(0,12)
+      this.fetchImgsArr = this.initImgsArr(0, 12) // 模拟每次请求的新的图片的数据数据
     },
   }
 
